@@ -27,10 +27,10 @@ https://stackoverflow.com/questions/55038942/fatal-password-authentication-faile
 
 2. realizar modificação no arquivo pg_hba.conf. Incluir a coluna METHOD e setar com trust para acessar pelo PgAdmin.
 
-# TYPE  DATABASE        USER            ADDRESS                 METHOD
+TYPE  DATABASE        USER            ADDRESS                 METHOD
 
-# IPv4 local connections:
+IPv4 local connections:
 host    all             all             127.0.0.1/32            trust
 
-# IPv6 local connections:
+IPv6 local connections:
 host    all             all             ::1/128                 trust
