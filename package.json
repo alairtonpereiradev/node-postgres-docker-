@@ -1,0 +1,20 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "Node + postgres (docker)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts"
+  },
+  "author": "Alairton Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.6.0",
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
